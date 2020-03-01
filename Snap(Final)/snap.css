@@ -1,0 +1,170 @@
+html, body {
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-weight: 800;
+}
+
+/* Start of navbar */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(198, 0, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  }
+  
+  .navbar-expand-lg {
+  
+  }
+  
+  .navbar-light {
+  
+  }
+  
+  .bg-light {
+  
+  }
+  
+  .navbar-brand img {
+    width: 100px !important;
+    height: auto !important;
+    border: 2px solid rgba(0,6,12,.5);
+       box-shadow: 0 2px 12px rgba(0,6,12,.5);
+      -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+      -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+      -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  }
+  
+  .navbar-toggler {
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  }
+  
+  .navbar-toggler-icon {
+    
+  }
+  
+  .navbar-nav {
+  
+  }
+  
+  .ml-auto {
+  
+  }
+  
+  .nav-item {
+  
+  }
+  
+  .dropdown {
+  
+  }
+  
+  .nav-link { color: white !important; font-weight: 800;}
+  
+  
+  .nav-link:hover {
+    color: #000 !important;
+  }
+  
+  .dropdown-toggle {
+    
+  }
+  
+  .dropdown-menu {
+    max-width: 120px;
+    
+  }
+  
+  .dropdown-item {
+  
+  }
+  
+  /* End of navbar */
+
+
+input {
+    text-align: center;
+}
+
+h4 {
+    margin-top: 5%;
+    text-align: center;
+}   
+
+.col {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+#snap {
+    max-width: 40%;
+    min-width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*#button {
+    max-width: 30%;
+    font-size: 90%;
+    max-height: 10%;
+}*/
+
+.card {
+    color: black;
+    max-width: 70%;
+    height: 5%;
+    padding-top: -10%;
+}
+
+.gender {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+#male, #female {
+    margin: 0 4%;
+}
+
+button {
+    background-color: rgb(198, 0, 2);
+    border: rgb(240, 19, 30);
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    width: 80px;
+    height: auto;
+    font-weight: 800;
+}
+
+.col-3 {
+    margin: 0 auto;
+}
+
+#die {
+    max-width: 50%;
+    margin: 0 auto;
+    height: auto;
+    min-width: 320px;
+}
+
+#live {
+    max-width: 70%;
+    margin: 5% auto 0 auto;
+    height: auto;
+    min-width: 320px;
+}
+

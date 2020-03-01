@@ -1,0 +1,214 @@
+html, body {
+background-color: black;
+text-align: center;
+margin: 0 auto;
+overflow-x: hidden;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+font-weight: 800;
+}
+
+/* Start of navbar */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgb(198, 0, 2);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.navbar-expand-lg {
+
+}
+
+.navbar-light {
+
+}
+
+.bg-light {
+
+}
+
+.navbar-brand img {
+  width: 100px !important;
+  height: auto !important;
+  border: 2px solid rgba(0,6,12,.5);
+     box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler {
+  border:2px solid rgba(0,6,12,.5);
+  box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler-icon {
+  
+}
+
+.navbar-nav {
+
+}
+
+.ml-auto {
+
+}
+
+.nav-item {
+
+}
+
+.dropdown {
+
+}
+
+.nav-link { color: white !important; font-weight: 800;}
+
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+.dropdown-toggle {
+  
+}
+
+.dropdown-menu {
+  max-width: 120px;
+  
+}
+
+.dropdown-item {
+
+}
+
+/* End of navbar */
+
+ .container .card {
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.answer-buttons {
+  margin: 0 auto;
+  align-items: center;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.col-6 {
+  color: white;
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: grey;
+  border-radius: 5px;
+  color: white;
+  outline: none; 
+  margin: 2%;
+  cursor: pointer;
+  justify-content: center;
+  max-width: 30%;
+  height: auto;
+  min-width: 190px;
+  font-size: 1.2rem; 
+}
+
+.btn:hover {
+  border-color: red !important;
+}
+
+.btn.correct {
+  background-color: green;
+  color: white;
+}
+
+.btn.wrong {
+    background-color: red;
+    color: white;  
+}
+
+.start-btn, .next-btn, .results-btn, .restart-btn {
+  font-size: 100%;
+  font-weight: bold;
+  
+}
+
+.controls {
+  justify-content: right;
+  align-items: right;
+}
+
+.hide {
+  display: none;
+}
+
+#image {
+    max-width: 40%;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    height: auto;
+    margin: 5% auto 0 auto;
+    border-radius: 6%;
+    min-width: 320px;
+}
+
+#banner {
+  max-width: 40%;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  height: auto;
+  margin:  0 auto;
+  border-radius: 6%;
+  min-width: 300px;
+}
+
+#question {
+    font-size: 120%;
+    margin: 2% auto -2% auto;
+}
+
+.col {
+    margin: 0 auto;
+}
+
+.text {
+    margin-top: 2%;
+    -webkit-transition: height 1s;
+}
+
+.results {
+    text-align: center;
+    margin: 3% auto;
+}
+
+#restart-btn {
+    margin: 2% auto;
+}
+
+#banner {
+  margin: 2% auto;
+  max-width: 70%;
+  height: auto;
+}
+
+#results-btn, #next-btn {
+  
+}
+
+#title {
+  font-size: 200%;
+}
+
+#footer {
+  color: rgb(198, 0, 2);
+  font-size: 120%;
+}
+
+a:hover {
+  color: black !important;
+}
